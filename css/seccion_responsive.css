@@ -1,0 +1,139 @@
+/*Seccion Responsive*/
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor_sobre_nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .seccion_sobre_nosotros .contenido_textos{
+        width: 90%;
+    }
+
+    .imagen_acerca_de{
+        width: 90%;
+    }
+
+    /* Seccion Portafolio (Galeria) */
+
+    .imagen_portafolio{
+        width: 44%;
+    }
+
+    /* Testimonio Nuestros Clientes */
+
+    .tarjetas{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarjetas .tarjeta{
+        width: 90%;
+    }
+
+    .tarjetas .tarjeta:first-child{
+        margin-bottom: 30px;
+    }
+
+    /* Seccion Nuestros Servicios */
+
+    .servicio_contenido{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .servicio_individual{
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicio_individual:nth-child(1), .servicio_individual:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .servicio_individual img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .textos_cabecera h1{
+        font-size: 35px;
+    }
+
+    .textos_cabecera h2{
+        font-size: 20px;
+    }
+
+    /* Sección Nuestros Productos */
+
+    .imagen_acerca_de{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .seccion_sobre_nosotros .contenido_textos{
+        width: 95%;
+    }
+
+    /* Sección Portafolio (Galeria) */
+
+    .imagen_portafolio{
+        width: 95%;
+    }
+
+    /* Seccion Nuestros Clients */
+
+    .tarjetas .tarjeta{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjetas .tarjeta img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Sección Pie de Pagina (Footer) */
+
+    .seccion_footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .contenido_footer{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contenido_footer h4{
+        border: none;
+    }
+
+    .contenido_footer p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo_final{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,31 @@
+/*Seccion Servicios*/
+
+.seccion_servicios{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+
+.servicio_contenido{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio_individual{
+    width: 28%;
+    text-align: center;
+}
+
+.servicio_individual img{
+    width: 90%;
+}
+
+.servicio_individual h3{
+    margin: 10px 0;
+}
+
+.servicio_individual p{
+    font-weight: 300;
+    text-align: justify;
+}
